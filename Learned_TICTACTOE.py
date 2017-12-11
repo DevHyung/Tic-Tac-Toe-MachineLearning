@@ -272,8 +272,6 @@ def tainNetwork():
 
         # print(wins,loss,(episodes-wins-loss))
         saver.save(sess, "./model/model.ckpt", global_step=iterations)
-
-
 # plays a game and returns a list with all states, actions and final reward.
 def playaGame(e, sess, inputState, prediction, Qoutputs):
     global won_games

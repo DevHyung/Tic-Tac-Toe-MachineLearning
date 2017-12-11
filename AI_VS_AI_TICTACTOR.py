@@ -119,16 +119,17 @@ def play_game(plus_player_func, minus_player_func, log=False):
             return -player_turn
 
         board_state = apply_move(board_state, move, player_turn)
-        if log:
-            print("_" * 10)
-            for tmp in board_state:
-                print (tmp)
-            print("_"*10)
+        #if log:
+            #print("_" * 10)
+            #for tmp in board_state:
+#                print (tmp)
+#            print("_"*10)
             #print(board_state)
 
         winner = has_winner(board_state)
         if winner != 0:
             if log:
+                print(board_state,end='')
                 print("we have a winner, side: %s" % player_turn)
             return winner
         player_turn = -player_turn
@@ -149,4 +150,10 @@ def random_player(board_state, _):
 
 if __name__ == '__main__':
     # example of playing a game
-    play_game(random_player, random_player, log=True)
+    idx = 1
+    while True:
+        print (str(idx)+": ",end='')
+        play_game(random_player, random_player, log=True)
+        if idx == 30:
+            break;
+        idx +=1

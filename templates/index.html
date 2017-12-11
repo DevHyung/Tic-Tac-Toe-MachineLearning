@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+
+</head>
+
+<body class="body">
+    <div class="container-fluid">
+        <header>
+            <h1>Alpah-Toe</h1>
+        </header>
+        <h2>이겨보시지</h2>
+        <div class="game">
+            <div class="canvas">
+                <div class="canvas-container">
+                    <canvas id="myCanvas" width="300" height="300">
+                        Canvas is not supported by your browser
+                    </canvas>
+                </div>
+            </div>
+            <div class="options">
+                <button type="button" class="btn btn-success myOptions" id="ai_btn">컴퓨터 먼저</button></br>
+                <button type="button" class="btn btn-primary myOptions" id="human_btn">나 먼저</button>
+                <div class="radio myOptions">
+                    <label><input type="radio" name="art" value="O" checked="checked" > O</label>
+                    <label><input type="radio" name="art" value="X"/> X</label>
+                </div>
+            </div>
+        </div>
+        <div class="status-pl">
+            <h2 id="status"></h2>
+        </div>
+    </div>
+    <script type="text/javascript" src="{{url_for('static',filename='js/jquery.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='js/main.js')}}"></script>
+</body>
+
+</html>
