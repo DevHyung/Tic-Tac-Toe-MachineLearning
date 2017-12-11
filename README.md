@@ -7,7 +7,7 @@ Tic-phago(Tic-Tac-Toe + Alphago) referred to ‘Tic-phago’
 ## 1.2. What the Tic-Tac-Toe
 Tic-Tac-Toe is the game that two people play alternately. To start the game you have to select one of O and X shapes. It is a game each person draws a figure and puts one’s figure on a horizontal, vertical, or diagonal line. The person who completes the figure line first, wins. It is m, n, k-game, and (3,3,3)-game.
 Below is an example when X wins first place.
-![tictactoe](/READMEIMG/tictactoe.png)
+![tictactoe](https://github.com/DevHyung/READMEIMG/blob/master/tictactoe.png)
 ## 1.3. Project Descriptin
 Developed ‘Tic-Phago’ based on the rules of the game titled "Tic-Tac-Toe", which is a program that achieves three consecutive horizontal, vertical and diagonal lines of O or X. Because there are only nine boxes, the number of possible cases of play is likely to exceed a maximum of 9! = 362880, but by the order of the words (O is the first or X is the first).
 The training data is less than the number of nodes in all the trees with approximate 3 ^ 9 = 19683 branches and 9!(actually less then 9!) leaves. Because if there is already a win, and the game is clear, subsequent tree nodes are meaningless, and there is no need to increase if obvious draws are expected. Also, the beginning of the case of O and X seems to be different, but it can be virtually the same due to the symmetric relationship. 'Tic Tac Toe' is an unconditional draw if you do your best. Therefore, it is aimed to be tic-tac-phago in the game between the 'Tic-phago' is to draw and the ‘Tic-phago-to-person game, the goal is to set an additional rule and win.
