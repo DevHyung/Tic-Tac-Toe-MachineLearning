@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="742ea932-99fa-4652-b90f-44cefef1c187" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-109.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-109.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-109.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-110.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-110.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-110.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-111.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-111.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-111.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-112.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-112.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-112.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-113.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-113.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/model.ckpt-113.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AI_VS_AI_TICTACTOR.py" afterPath="$PROJECT_DIR$/AI_VS_AI_TICTACTOR.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learned_TICTACTOE.py" afterPath="$PROJECT_DIR$/Learned_TICTACTOE.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/checkpoint" afterPath="$PROJECT_DIR$/model/checkpoint" />
-    </list>
+    <list default="true" id="742ea932-99fa-4652-b90f-44cefef1c187" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Learned_TICTACTOE.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Learned_TICTACTOE.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learned_TICTACTOE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="940">
@@ -77,12 +57,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#18#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +94,8 @@
       <list>
         <option value="$PROJECT_DIR$/../Tic-Tac-Toe-Machine-Learning-Using-Reinforcement-Learning/server.py" />
         <option value="$PROJECT_DIR$/Learned_TICTACTOE.py" />
-        <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/AI_VS_AI_TICTACTOR.py" />
+        <option value="$PROJECT_DIR$/server.py" />
       </list>
     </option>
   </component>
@@ -174,7 +156,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Learned_TICTACTOE">
+  <component name="RunManager" selected="Python.server (1)">
     <configuration default="false" name="GUI_TICTACTOE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,6 +221,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Tic-Tac-Toe-MachineLearning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI_VS_AI_TICTACTOR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tic-Tac-Toe-MachineLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -377,18 +376,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.GUI_TICTACTOE" />
       <item index="1" class="java.lang.String" itemvalue="Python.Learned_TICTACTOE" />
       <item index="2" class="java.lang.String" itemvalue="Python.server" />
       <item index="3" class="java.lang.String" itemvalue="Python.AI_VS_AI_TICTACTOR" />
+      <item index="4" class="java.lang.String" itemvalue="Python.server (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Learned_TICTACTOE" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AI_VS_AI_TICTACTOR" />
-        <item index="2" class="java.lang.String" itemvalue="Python.server" />
-        <item index="3" class="java.lang.String" itemvalue="Python.GUI_TICTACTOE" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.server (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Learned_TICTACTOE" />
+        <item index="2" class="java.lang.String" itemvalue="Python.AI_VS_AI_TICTACTOR" />
+        <item index="3" class="java.lang.String" itemvalue="Python.server" />
+        <item index="4" class="java.lang.String" itemvalue="Python.GUI_TICTACTOE" />
       </list>
     </recent_temporary>
   </component>
@@ -414,18 +415,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37116912" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37116912" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -476,7 +477,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#18#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -511,14 +514,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Tic-Tac-Toe-Machine-Learning-Using-Reinforcement-Learning/server.py" />
-    <entry file="file://$PROJECT_DIR$/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AI_VS_AI_TICTACTOR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2983">
@@ -535,6 +530,16 @@
           <caret line="286" column="27" lean-forward="false" selection-start-line="286" selection-start-column="27" selection-end-line="286" selection-end-column="27" />
           <folding>
             <element signature="e#166#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
