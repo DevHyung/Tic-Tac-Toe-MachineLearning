@@ -35,6 +35,6 @@ GPU : nvidia GeForce 960 8G
 ```python
 # after required package install (ex: tensorflow, numpy, etc... )
 # if you are first start, Line 176 e = epsilon
-# else (you are not first excute ) e = 0 setting 
+# else (you are not first excute ) e = 0 setting
 py -3 Learned_TICTACTOE.py
 ```
