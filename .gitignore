@@ -1,3 +1,5 @@
 server.py
 model/
 .idea/
+static/
+templates/
