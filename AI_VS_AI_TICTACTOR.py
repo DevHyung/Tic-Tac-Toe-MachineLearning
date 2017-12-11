@@ -3,7 +3,7 @@
     Author: DevHyung
     Date last modified: 2017/12/11
     Python Version: 3.6
-    Description : Machine Learning 을 이용한 Tic-Tac-Toe 프로그램
+    Description : AI 을 이용한 Tic-Tac-Toe 프로그램
 """
 import random
 import itertools
