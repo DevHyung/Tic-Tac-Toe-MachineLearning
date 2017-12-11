@@ -10,6 +10,16 @@ Tic-Tac-Toe is the game that two people play alternately. To start the game you 
 Developed ‘Tic-Phago’ based on the rules of the game titled "Tic-Tac-Toe", which is a program that achieves three consecutive horizontal, vertical and diagonal lines of O or X. Because there are only nine boxes, the number of possible cases of play is likely to exceed a maximum of 9! = 362880, but by the order of the words (O is the first or X is the first).
 The training data is less than the number of nodes in all the trees with approximate 3 ^ 9 = 19683 branches and 9!(actually less then 9!) leaves. Because if there is already a win, and the game is clear, subsequent tree nodes are meaningless, and there is no need to increase if obvious draws are expected. Also, the beginning of the case of O and X seems to be different, but it can be virtually the same due to the symmetric relationship. 'Tic Tac Toe' is an unconditional draw if you do your best. Therefore, it is aimed to be tic-tac-phago in the game between the 'Tic-phago' is to draw and the ‘Tic-phago-to-person game, the goal is to set an additional rule and win.
 
+# 2. Development environment
+## 2.1. Testing
+Tested on windows with Python 3.6 (packages numpy, tensorflow and flask are required)
+## 2.2. Development Spec
+```
+CPU : intel i5 - 6600
+RAM : 16G
+OS  : windows 10 pro
+GPU : nvidia GeForce 960 8G
+```
 ### 1.2.1. 장점
 	1. 간결하다.
 	2. 별도의 도구없이 작성가능하다.
@@ -23,8 +33,7 @@ The training data is less than the number of nodes in all the trees with approxi
 	3. 모든 HTML 마크업을 대신하지 못한다.
 
 ****
-# 2. 마크다운 사용법(문법)
-## 2.1. 헤더Headers
+
 * 큰제목: 문서 제목
     ```
     This is an H1
