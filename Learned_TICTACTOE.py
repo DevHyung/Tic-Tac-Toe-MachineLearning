@@ -173,8 +173,8 @@ def tainNetwork():
     e_downrate = 0.9 / max_iterations
     print("e down rate is ", e_downrate)
     # initalise e with inital epsilon value here.
-    e = epsilon
-    #e = 0
+    #e = epsilon
+    e = 0
     print("max iteration = {}".format(max_iterations))
     print()
     run_time = 0
@@ -229,7 +229,7 @@ def tainNetwork():
         time_diff = time.time() - start_time
         run_time += time_diff
         print(
-            "학습횟수 {} 완료,  {} 번 이김, {} 번 짐 {} 번 비김, 총 {} 게임, e is {} \ncost is {} , current_time is {}, time taken is {} , total time = {} hours \n".format(
+            "학습횟수 {} 완료,  {} 번 이김, {} 번 패배,  {} 번 비김, 총 {} 게임, e is {} \ncost is {} , current_time is {}, time taken is {} , total time = {} hours \n".format(
                 iterations,
                 won_games, lost_games, draw_games, episodes, e * 100, total_loss, time.ctime(), time_diff,
                 (run_time) / 3600))

@@ -150,10 +150,10 @@ def random_player(board_state, _):
 
 if __name__ == '__main__':
     # example of playing a game
-    idx = 1
+    idx = 172790
     while True:
         print (str(idx)+": ",end='')
         play_game(random_player, random_player, log=True)
-        if idx == 30:
+        if idx == 172800:
             break;
         idx +=1
