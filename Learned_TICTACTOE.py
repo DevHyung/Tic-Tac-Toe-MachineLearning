@@ -143,25 +143,19 @@ def tainNetwork():
 
     # create network
     inputState, Qoutputs, prediction = createNetwork()
-
     # calculate the loss
     targetQOutputs = tf.placeholder("float", [None, actions])
     loss = tf.reduce_mean(tf.square(tf.subtract(targetQOutputs, Qoutputs)))
-
     # train the model to minimise the loss
     train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
-
     # creating a sesion
     sess = tf.InteractiveSession()
-
     # saving and loading networks
     saver = tf.train.Saver()
     sess.run(tf.global_variables_initializer())
-
     # load a saved model
     step = 0
     iterations = 0
-
     checkpoint = tf.train.get_checkpoint_state("model")
     if checkpoint and checkpoint.model_checkpoint_path:
         s = saver.restore(sess, checkpoint.model_checkpoint_path)
@@ -170,26 +164,19 @@ def tainNetwork():
     else:
         print("Could not find old network weights")
     iterations += step
-
     print(time.ctime())
-
     ## define maximum number of matches for inital interation
     tot_matches = 60000
     number_of_matches_each_episode = 500
     max_iterations = tot_matches / number_of_matches_each_episode
-
     # defines the rate at which epsilon should decrease
     e_downrate = 0.9 / max_iterations
-
     print("e down rate is ", e_downrate)
-
     # initalise e with inital epsilon value here.
     e = epsilon
     #e = 0
-
     print("max iteration = {}".format(max_iterations))
     print()
-
     run_time = 0
     while "ticky" != "tacky":
         sys.stdout.flush()
@@ -198,17 +185,13 @@ def tainNetwork():
         global won_games
         global lost_games
         global draw_games
-
         # sum of the losses while training the model.
         total_loss = 0
-
         epchos = 100
         GamesList = []
-
         for i in range(episodes):
             completeGame, victory = playaGame(e, sess, inputState, prediction, Qoutputs)
             GamesList.append(completeGame)
-
         for k in range(epchos):
             random.shuffle(GamesList)
             for i in GamesList:
@@ -221,7 +204,6 @@ def tainNetwork():
                     action = j[1][0]
                     reward = j[2][0]
                     nextState = j[3]
-
                     ## Game end reward
                     if loop_in == 0:
                         game_reward = reward
@@ -230,31 +212,24 @@ def tainNetwork():
                         nextQ = sess.run(Qoutputs, feed_dict={inputState: [nextState]})
                         maxNextQ = np.max(nextQ)
                         game_reward = GAMMA * (maxNextQ)
-
                     targetQ = sess.run(Qoutputs, feed_dict={inputState: [currentState]})
-
                     # once we calculate the reward to the paticular action, we must also add the -1 reward for all the illegal moves in the q value
                     # one might say this is cheating , but it speeds up the process.
                     for index, item in enumerate(currentState):
                         if item != 0:
                             targetQ[0, index] = -1
-
                     targetQ[0, action] = game_reward
-
                     loop_in += 1
                     t_loss = 0
                     # Train our network using the targetQ
-
-
                     t_loss = sess.run([train_step, Qoutputs, loss],
                                       feed_dict={inputState: [currentState], targetQOutputs: targetQ})
                     total_loss += t_loss[2]
-
         iterations += 1
         time_diff = time.time() - start_time
         run_time += time_diff
         print(
-            "iteration {} completed with {} wins, {} losses {} draws, out of {} games played, e is {} \ncost is {} , current_time is {}, time taken is {} , total time = {} hours \n".format(
+            "학습횟수 {} 완료,  {} 번 이김, {} 번 짐 {} 번 비김, 총 {} 게임, e is {} \ncost is {} , current_time is {}, time taken is {} , total time = {} hours \n".format(
                 iterations,
                 won_games, lost_games, draw_games, episodes, e * 100, total_loss, time.ctime(), time_diff,
                 (run_time) / 3600))
