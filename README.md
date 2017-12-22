@@ -23,6 +23,7 @@ CPU : intel i5 - 6600
 RAM : 16G
 OS  : windows 10 pro
 GPU : nvidia GeForce 960 8G
+++ Env : anaconda
 ```
 # 3. How To Use
 ## 3.1. File Description
@@ -36,5 +37,6 @@ GPU : nvidia GeForce 960 8G
 # after required package install (ex: tensorflow, numpy, etc... )
 # if you are first start, Line 176 e = epsilon
 # else (you are not first excute ) e = 0 setting
+# ++ if you don't have numpy module pip install numpy
 py -3 Learned_TICTACTOE.py
 ```
